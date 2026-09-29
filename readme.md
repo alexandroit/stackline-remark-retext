@@ -1,3 +1,19 @@
+# @stackline/remark-retext
+
+Independent maintenance fork of `remark-retext@5.0.1`, preserving its API and published type declarations.
+
+```sh
+npm install @stackline/remark-retext
+# Keep existing imports:
+npm install remark-retext@npm:@stackline/remark-retext@1.0.0
+```
+
+[Stackline](https://alexandro.net/) · [Issues](https://github.com/alexandroit/stackline-remark-retext/issues) · [Community](https://www.reddit.com/r/Stackline/)
+
+See [UPSTREAM.md](UPSTREAM.md) for source identity and issue review, and [CHANGELOG.md](CHANGELOG.md) for maintenance changes. Functional tests also run against the final npm tarball; releases are published from GitHub Actions with provenance.
+
+## Upstream documentation
+
 # remark-retext
 
 [![Build][build-badge]][build]

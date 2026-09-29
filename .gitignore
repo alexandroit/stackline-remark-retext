@@ -4,3 +4,8 @@ node_modules/
 *.d.ts
 *.log
 yarn.lock
+
+node_modules/
+artifact/
+.package-consumer/
+*.tgz
