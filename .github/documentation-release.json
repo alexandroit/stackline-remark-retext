@@ -1,0 +1,33 @@
+{
+  "repository": "alexandroit/stackline-remark-retext",
+  "packages": [
+    {
+      "name": "@stackline/remark-retext",
+      "path": "readme.md",
+      "version": "1.0.1",
+      "baselineVersion": "1.0.0",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "remark-retext",
+        "typescript",
+        "unified",
+        "remark",
+        "remark-plugin",
+        "retext",
+        "plugin",
+        "mdast",
+        "markdown",
+        "nlcst",
+        "natural-language",
+        "prose",
+        "maintenance-fork"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/remark-retext/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/remark-retext/-/remark-retext-1.0.0.tgz",
+      "baselineIntegrity": "sha512-8BQk07Z/HM+okfeodH7qGkJ7Mlu6HChXS1AZr8ee3YrUtQvDrWpG5UkkOfC4waFoVfYS128nj4i6ymsqW6QrBQ==",
+      "expectedSha512": "a1fef3536045047df891bf8cc84eabe42070694bee2dab04926870a115d64acdf8cdf1c1af5fc8f1cf954afbc8f6049e49e714b8d5dc326fb9baba0d391c599d",
+      "tag": "docs-stackline-remark-retext-v1.0.1"
+    }
+  ]
+}
