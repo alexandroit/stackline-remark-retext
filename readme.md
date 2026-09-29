@@ -1,28 +1,52 @@
 # @stackline/remark-retext
 
-Independent maintenance fork of `remark-retext@5.0.1`, preserving its API and published type declarations.
+> remark plugin to support retext.
 
-```sh
+[![npm version](https://img.shields.io/npm/v/@stackline/remark-retext.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/remark-retext)
+[![license](https://img.shields.io/npm/l/@stackline/remark-retext.svg?style=flat-square)](https://github.com/alexandroit/stackline-remark-retext)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-remark-retext-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-remark-retext)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/remark-retext/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/remark-retext/)** | **[npm](https://www.npmjs.com/package/@stackline/remark-retext)** | **[Issues](https://github.com/alexandroit/stackline-remark-retext/issues)** | **[Repository](https://github.com/alexandroit/stackline-remark-retext)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/remark-retext` is the Stackline-maintained distribution of `remark-retext@5.0.1`. It is an independent continuation of [remark-retext](https://github.com/remarkjs/remark-retext); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/remark-retext@1.0.1` |
+| API target | `remark-retext@5.0.1` |
+| Supported Node.js | `See supported framework requirements` |
+| License | `MIT` |
+| Module type | `module` |
+| Main entry | `index.js` |
+| Types | `index.d.ts` |
+| Runtime dependencies | `unified, @types/mdast, @types/unist, mdast-util-to-nlcst` |
+
+## Installation
+
+```bash
 npm install @stackline/remark-retext
-# Keep existing imports:
-npm install remark-retext@npm:@stackline/remark-retext@1.0.0
 ```
 
-[Stackline](https://alexandro.net/) · [Issues](https://github.com/alexandroit/stackline-remark-retext/issues) · [Community](https://www.reddit.com/r/Stackline/)
+Preserve existing imports and plugin resolution with an npm alias:
 
-See [UPSTREAM.md](UPSTREAM.md) for source identity and issue review, and [CHANGELOG.md](CHANGELOG.md) for maintenance changes. Functional tests also run against the final npm tarball; releases are published from GitHub Actions with provenance.
+```bash
+npm install remark-retext@npm:@stackline/remark-retext
+```
 
-## Upstream documentation
+## Usage and API reference
 
-# remark-retext
+### remark-retext
 
-[![Build][build-badge]][build]
-[![Coverage][coverage-badge]][coverage]
-[![Downloads][downloads-badge]][downloads]
-[![Size][size-badge]][size]
-[![Sponsors][sponsors-badge]][collective]
-[![Backers][backers-badge]][collective]
-[![Chat][chat-badge]][chat]
 
 **[remark][]** plugin to support **[retext][]**.
 
@@ -73,7 +97,7 @@ This package is [ESM only](https://gist.github.com/sindresorhus/a39789f98801d908
 In Node.js (version 12.20+, 14.14+, or 16.0+), install with [npm][]:
 
 ```sh
-npm install remark-retext
+npm install @stackline/remark-retext
 ```
 
 In Deno with [Skypack][]:
@@ -106,7 +130,7 @@ import {reporter} from 'vfile-reporter'
 import {unified} from 'unified'
 import remarkParse from 'remark-parse'
 import remarkStringify from 'remark-stringify'
-import remarkRetext from 'remark-retext'
+import remarkRetext from '@stackline/remark-retext'
 import retextEnglish from 'retext-english'
 import retextEquality from 'retext-equality'
 
@@ -185,7 +209,7 @@ import {read} from 'to-vfile'
 import {reporter} from 'vfile-reporter'
 import {unified} from 'unified'
 import remarkParse from 'remark-parse'
-import remarkRetext from 'remark-retext'
+import remarkRetext from '@stackline/remark-retext'
 import {Parser} from 'retext-english'
 import retextEquality from 'retext-equality'
 import retextStringify from 'retext-stringify'
@@ -265,7 +289,7 @@ abide by its terms.
 
 [MIT][license] © [Titus Wormer][author]
 
-<!-- Definitions -->
+
 
 [build-badge]: https://github.com/remarkjs/remark-retext/workflows/main/badge.svg
 
@@ -336,3 +360,22 @@ abide by its terms.
 [retext-indefinite-article]: https://github.com/retextjs/retext-indefinite-article
 
 [retext-readability]: https://github.com/retextjs/retext-readability
+
+## Credits and original authors
+
+- Original project: [remark-retext](https://github.com/remarkjs/remark-retext).
+- Titus Wormer.
+- Copyright (c) 2016 Titus Wormer <tituswormer@gmail.com>.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.
