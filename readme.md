@@ -10,7 +10,7 @@
 
 **[Documentation](https://alexandro.net/docs/vanilla/remark-retext/)** | **[npm](https://www.npmjs.com/package/@stackline/remark-retext)** | **[Issues](https://github.com/alexandroit/stackline-remark-retext/issues)** | **[Repository](https://github.com/alexandroit/stackline-remark-retext)**
 
-**Current package version:** `1.0.2`
+**Current package version:** `1.0.3`
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Item | Value |
 | :--- | :--- |
-| Package | `@stackline/remark-retext@1.0.2` |
+| Package | `@stackline/remark-retext@1.0.3` |
 | API target | `remark-retext@5.0.1` |
 | Supported Node.js | `See supported framework requirements` |
 | License | `MIT` |
